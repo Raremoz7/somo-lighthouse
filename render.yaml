@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: somo-lighthouse
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 3000

@@ -1,0 +1,8 @@
+{
+  "name": "somo-lighthouse-server",
+  "private": true,
+  "dependencies": {
+    "lighthouse": "^11.7.1",
+    "puppeteer": "^22.6.0"
+  }
+}
